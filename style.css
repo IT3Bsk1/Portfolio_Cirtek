@@ -1,0 +1,21 @@
+.rectangle-1 {
+
+position: absolute;
+width: 1110px;
+height: 70px;
+left: 85px;
+top: 0px;
+
+background: #1B1B1B;
+border-radius: 0px 0px 8px 8px;
+}
+
+.header {
+
+position: absolute;
+width: 1280px;
+height: 700px;
+left: 0px;
+top: 0px;
+background: #000000;
+}
