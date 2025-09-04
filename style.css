@@ -1,14 +1,3 @@
-.rectangle-1 {
-
-position: absolute;
-width: 1110px;
-height: 70px;
-left: 85px;
-top: 0px;
-
-background: #1B1B1B;
-border-radius: 0px 0px 8px 8px;
-}
 
 .header {
 
@@ -18,4 +7,45 @@ height: 700px;
 left: 0px;
 top: 0px;
 background: #000000;
+}
+
+.rectangle-1 {
+position: absolute;
+width: 1110px;
+height: 70px;
+left: 85px;
+top: 0px;
+color: white;
+background: #1B1B1B;
+border-radius: 0px 0px 8px 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.topMenu {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 70px;
+color: #9C9C9C;
+text-transform: uppercase;
+font-family:'Courier New', Courier, monospace;
+}
+
+.headerText {
+position: absolute;
+padding-left: 220px;
+padding-top: 200px;
+color: white;
+font-size: x-large;
+font-family: 'Courier New', Courier, monospace;
+}
+.pText {
+position: absolute;
+padding-left: 220px;
+padding-top: 290px;
+color: rgb(92, 90, 90);
+font-family: 'Courier New', Courier, monospace;
 }
