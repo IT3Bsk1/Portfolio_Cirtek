@@ -1,16 +1,14 @@
 .header {
-
 position: absolute;
-width: 1280px;
-height: 700px;
+width: 1905px;
+height: 800px;
 left: 0px;
 top: 0px;
 background: #000000;
 }
-
 .rectangle-1 {
 position: absolute;
-width: 1110px;
+width: 1725px;
 height: 70px;
 left: 85px;
 top: 0px;
@@ -21,13 +19,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-
 .topMenu {
 display: flex;
 flex-direction: row;
 align-items: center;
 padding: 0px;
-gap: 70px;
+gap: 200px;
 color: #9C9C9C;
 text-transform: uppercase;
 font-family:'Courier New', Courier, monospace;
@@ -35,7 +32,7 @@ font-family:'Courier New', Courier, monospace;
 
 .headerText {
 position: absolute;
-padding-left: 220px;
+padding-left: 300px;
 padding-top: 200px;
 color: white;
 font-size: x-large;
@@ -43,54 +40,124 @@ font-family: 'Courier New', Courier, monospace;
 }
 .pText {
 position: absolute;
-padding-left: 220px;
+padding-left: 300px;
 padding-top: 290px;
 color: rgb(92, 90, 90);
 font-family: 'Courier New', Courier, monospace;
+line-height: 0.7;
 }
 .img {
 position: relative;
 z-index: 10;
-width: 300px;
-height: 300px;
-margin-top: 220px;
-margin-left: 800px;
+width: 450px;
+height: 450px;
+margin-top: 210px;
+margin-left: 1100px;
 display: block;
 border-radius: 50%;
 }
 .button {
 position: absolute;
-margin-left: 220px;
+margin-left: 300px;
 margin-top: 420px;
 width: 290px;
 height: 55px;
 background: rgb(17, 134, 17);
 background-color: rgb(17, 134, 17);
-border: none;
 z-index: 9;
 color: white;
 font-size: large;
+box-shadow: 1px 1px 30px rgb(17, 134, 17);
+border-radius: 5px;
+border: 0px;
 }
 .pictures {
 position: absolute;
-top: 560px; /* Umístění pod zelený button */
-left: 220px; /* Zarovnání s ostatním obsahem */
+top: 560px; 
+left: 300px; 
 display: flex;
 flex-direction: row;
-gap: 20px; /* Mezera mezi obrázky */
+gap: 40px; 
 z-index: 10;
 }
-
 .pictures img {
 width: 100px;
 height: 100px;
-object-fit: contain; /* Zachová poměr stran */
+object-fit: contain; 
 }
-.txt {
-  margin-top: 20px;  /* mezera pod obrázky */
-  margin-left: 50px;
-  color: #ffffff; 
-  font-size: 24px;
-  font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+.pictures2 {
+position: absolute;
+top: 570px;
+left: 580px;
+display: flex;
+flex-direction: row;
+gap: 40px;
+z-index: 10;
+}
+.pictures2 img {
+width: 109px;
+height: 109px;
+object-fit: contain; 
+}
+.pracovalS {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+z-index: 13;
+position: absolute;
+width: 500px;
+height: 18px;
+left: 300px;
+top: 510px;
+color: rgb(179, 179, 179);
+font-family: 'Courier New', Courier, monospace;
+}
+.Experience {
+position: absolute;
+display: flex;
+left: 300px;
+top: 890px;
+right: 300px;
+width: 1905px;
+height: 2000px;
+}
+.zkusenosti {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 0px;
+gap: 58px;
+position: absolute;
+width: 1305px;
+height: 40px;
+color: black;
+z-index: 8;
+font-size: 40px;
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grayText1 {
+position: absolute;
+font-family:'Courier New', Courier, monospace;
+color: gray;
+text-align: center;
+align-items: center;
+justify-content: center;
+line-height: 0.9;
+font-size: medium;
+top: 180px;
+}
+.fotka1 {
+position: absolute;
+top: 800px;
+left: 0px;
+}
+.fotka1 img {
+width: 400px;
+height: 400px;
+object-fit: cover;
+border-radius: 8px;
 }
