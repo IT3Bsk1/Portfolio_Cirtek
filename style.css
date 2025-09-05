@@ -116,12 +116,11 @@ font-family: 'Courier New', Courier, monospace;
 }
 .Experience {
 position: absolute;
-display: flex;
 left: 300px;
 top: 890px;
 right: 300px;
-width: 1905px;
-height: 2000px;
+width: 1305px;
+min-height: 800px;
 }
 .zkusenosti {
 display: flex;
@@ -152,12 +151,79 @@ top: 180px;
 }
 .fotka1 {
 position: absolute;
-top: 800px;
-left: 0px;
+top: 400px;
+right: 80px;
 }
 .fotka1 img {
 width: 400px;
 height: 400px;
 object-fit: cover;
 border-radius: 8px;
+}
+.fotka2 {
+position: absolute;
+top: 1000px;
+left: 80px;
+}
+.fotka2 img {
+width: 400px;
+height: 400px;
+object-fit: cover;
+border-radius: 8px;
+}
+.fotka3 {
+position: absolute;
+top: 1600px;
+right: 80px;
+}
+.fotka3 img {
+width: 400px;
+height: 400px;
+object-fit: cover;
+border-radius: 8px;
+}
+.gaming {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 450px;
+  margin-left: 80px;
+}
+.gamingtext {
+  position: absolute;
+  font-family:'Courier New', Courier, monospace;
+  color: rgb(78, 76, 76);
+  font-size: 17px;
+  margin-left: 80px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.divider-line {
+  position: absolute;
+  top: 300px; /* Umístění mezi fotky a gaming sekci */
+  left: 0px;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #e46510, transparent);
+  z-index: 10;
+}
+.jidlo {
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  top: 1030px;
+  right: 700px;
+}
+.jidlotext {
+  position: absolute;
+  font-family:'Courier New', Courier, monospace;
+  color: rgb(78, 76, 76);
+  font-size: 17px;
+  right: 80px;
+  top: 1150px;
+  font-weight: bold;
 }
